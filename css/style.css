@@ -21,8 +21,7 @@
 /* HEADER
 /*******************************************/
 header {
-  border-bottom: 0.5px solid black;
-  height: 70px
+  height: 100px
 }
 h3,nav,button {
   float: left;
@@ -60,22 +59,32 @@ a {
 /*******************************************/
 main {
   clear: both;
-  margin: 30px 50px;
+  margin-top: 20px;
 }
-main > div {
+.intro section {
   float: left;
-  width: 50%;
-  padding: 0 20px;
+  width: 40%;
 }
 
-div {
+.intro > section {
+  margin: 0 30px;
+  padding: 0 30px;
+  padding-right: 100px;
+}
+
+img {
+  width: 700px;
+}
+.feature {
   clear: both;
 }
 
-div section {
+.feature section {
   float: left;
   width: 20%;
 }
+
+
 /******************************************
 /* BOTTOM SECTION
 /*******************************************/
@@ -88,4 +97,12 @@ body main + section {
 /*******************************************/
 html {
   color: #003333;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+form {
+  font-size: 15px;
 }
